@@ -1,0 +1,14 @@
+.DS_Store
+.vscode/settings.json
+.env
+env
+__pycache__/
+*.py[cod]
+*$py.class
+build
+dist
+downloads
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
