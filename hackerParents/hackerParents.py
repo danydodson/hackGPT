@@ -16,9 +16,7 @@ from datetime import datetime
 
 
 load_dotenv('.env')
-# openai.api_key = os.environ.get('OPENAI_API_KEY')
-apiToken = "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"
-openai.api_key = apiToken
+openai.api_key = os.environ.get('OPENAI_API_KEY')
 
 if not openai.api_key:
     openai.api_key = st.text_input("Enter OPENAI_API_KEY API key")

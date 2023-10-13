@@ -14,8 +14,7 @@ import altair as alt
 
 
 load_dotenv('.env')
-# openai.api_key = os.environ.get('OPENAI_API_KEY')
-apiToken = "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"
+apiToken = os.environ.get('OPENAI_API_KEY')
 openai.api_key = apiToken
 
 if not openai.api_key:

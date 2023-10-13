@@ -34,8 +34,7 @@ from prettytable import from_csv
 # Load API key from an environment variable or secret management service
 
 load_dotenv(".env")
-apiToken = "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"
-# apiToken = os.environ.get('OPENAI_TOKEN')
+apiToken = os.environ.get('OPENAI_TOKEN')
 openai.api_key = apiToken
 
 if 'OPENAI_TOKEN' in os.environ:
